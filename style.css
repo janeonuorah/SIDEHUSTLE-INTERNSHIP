@@ -1,0 +1,107 @@
+ body {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     background: url('https://images.unsplash.com/photo-1535837487710-a191373a20ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80');
+ }
+
+ #behind-logo {
+     background-color: #f7e5e4;
+     opacity: 80%;
+     margin-top: 400px;
+     width: 100vw;
+ }
+
+ #logo {
+     width: max(50px, 10vw);
+     aspect-ratio: 5 / 4;
+     margin-left: 200px;
+     display: inline-block;
+     vertical-align: top;
+     position: static;
+ }
+
+ @font-face {
+     font-family: NorseBold;
+     src: url('https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf');
+ }
+
+ .logo-name {
+     font-size: 70px;
+     font-family: NorseBold;
+     margin: 20px;
+     display: inline-block;
+ }
+
+ .container {
+     max-width: 600px;
+     background-color: #f7e5e4;
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     padding: 40px;
+     top: 0;
+ }
+
+ .column {
+     display: flex;
+     border: none;
+     padding-left: 0px;
+     font-size: 10px;
+     font-family: sans-serif;
+ }
+
+ label {
+     display: inline-block;
+     width: 150px;
+     text-align: left;
+     margin: 0.5rem 0;
+ }
+
+ input {
+     border: 2px solid #f2e3cf;
+     border-radius: 8px;
+ }
+
+ input,
+ textarea {
+     margin: 10px 0 0 0;
+     width: 100%;
+     min-height: 2em;
+ }
+
+ button {
+     background: f2e3cf;
+     border: 1px solid burlywood;
+ }
+
+ .error-message {
+     color: #cc0033;
+     display: inline-block;
+     font-size: 12px;
+     line-height: 15px;
+     margin: 5px 0 0;
+ }
+
+ .error input[type=text] {
+     background-color: #fce4e4;
+     border: 1px solid #cc0033;
+     outline: none;
+ }
+
+ input:focus {
+     box-shadow: 0 0 5pt 2pt rgb(148, 148, 232);
+     outline-width: 0px;
+ }
+
+ .button {
+     background-color: bisque;
+     border-radius: 8px;
+     border: 4px solid burlywood
+ }
+
+ footer{
+     padding: 30px;
+     margin-left: 100px;
+     margin-top: 90px;
+ }
